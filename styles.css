@@ -1,0 +1,134 @@
+#quickTOC {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+#quickTOC.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+#quickTOC:hover {
+    transform: translateY(0);
+}
+
+#quickTOC h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#quickTOC ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#quickTOC li {
+    margin-bottom: 8px;
+}
+
+#quickTOC a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    transition: color 0.3s;
+    display: block;
+    padding: 4px 0;
+    border-radius: 4px;
+}
+
+#quickTOC.dark-mode a {
+    color: #e0e0e0;
+}
+
+#quickTOC a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#quickTOC.dark-mode a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#quickTOC .toc-h1 {
+    font-weight: bold;
+}
+
+#quickTOC .toc-h2 {
+    padding-left: 12px;
+}
+
+#quickTOC .toc-h3 {
+    padding-left: 24px;
+}
+
+#quickTOC .toc-h4 {
+    padding-left: 36px;
+}
+
+#quickTOC .toc-h5 {
+    padding-left: 48px;
+}
+
+#quickTOC .toc-h6 {
+    padding-left: 60px;
+}
+
+#quickTOC .close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333333;
+    transition: color 0.3s;
+    padding: 4px;
+    line-height: 1;
+}
+
+#quickTOC.dark-mode .close-button {
+    color: #ffffff;
+}
+
+#quickTOC .close-button:hover {
+    color: #666666;
+}
+
+#quickTOC.dark-mode .close-button:hover {
+    color: #cccccc;
+}
+
+/* Scrollbar styling */
+#quickTOC::-webkit-scrollbar {
+    width: 6px;
+}
+
+#quickTOC::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#quickTOC::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#quickTOC.dark-mode::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
