@@ -1,6 +1,6 @@
 # QuickTOC - Chrome Extension
 
-![QuickTOC Logo](icons/icon128.png)
+![QuickTOC Logo](icon128.png)
 
 QuickTOC is a minimal and modern Chrome extension that generates a clean, easy-to-navigate table of contents for any web page with just one click.
 
@@ -51,6 +51,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please [open an issue](https://github.com/yourusername/quicktoc/issues) on GitHub.
+If you encounter any issues or have questions, please [open an issue]([https://github.com/yourusername/quicktoc/issues](https://github.com/iad1tya/QUICK-TOC/issues)) on GitHub.
 
 Enjoy using QuickTOC! 📚✨
